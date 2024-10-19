@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <li><a href="events.html">events</a></li>
+    <title>Alexa Developers SRM - Dark Theme</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #1d1d1d; 
+            font-family: 'Arial', sans-serif;
+            color: #e5e5e5;
+        }
+
+       
+        header {
+            background-color: #333; 
+            padding: 10px 20px;
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #00ff88;
+        }
+
+        .apply-btn {
+            background-color: #00ff88;
+            color: #111;
+            padding: 5px 15px;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .apply-btn:hover {
+            background-color: #00cc66;
+        }
+
+        .hero-section {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #1d1d1d;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hero-section h1 {
+            font-size: 4rem;
+            color: #00ff88;
+        }
+
+        .hero-section p {
+            font-size: 1.5rem;
+            color: #bfbfbf;
+            margin-top: 10px;
+        }
+
+    
+        .about-section {
+            padding: 60px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: left;
+            background-color: #1d1d1d; 
+        }
+
+        .about-section .content {
+            display: flex;
+            max-width: 1200px;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .about-section img {
+            max-width: 500px;
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-right: 40px; 
+        }
+
+        .about-text {
+            max-width: 600px;
+        }
+
+        .about-text h1 {
+            font-size: 3rem;
+            color: #00ff88;
+            margin-bottom: 20px;
+        }
+
+        .about-text p {
+            font-size: 1.2rem;
+            color: #bfbfbf;
+        }
+
+        .highlight {
+            color: #00ff88;
+            font-weight: bold;
+        }
+
+
+        .ux-section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 60px 20px;
+            background-color: #1d1d1d; 
+            position: relative;
+        }
+
+        .ux-background {
+            font-size: 15rem;
+            color: rgba(255, 255, 255, 0.05);
+            position: absolute;
+            left: 0;
+            z-index: 0;
+            margin-left: 10%;
+        }
+
+        .text-content {
+            z-index: 1;
+            text-align: left;
+            max-width: 500px;
+        }
+
+        .text-content h1 {
+            font-size: 3rem;
+            color: #33cc99;
+        }
+
+        .text-content p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+            color: #bfbfbf;
+            margin-top: 20px;
+        }
+
+      
+        .events-section {
+            background-color: #1d1d1d; 
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .events-section h2 {
+            font-size: 2.5rem;
+            color: #00ff88;
+        }
+
+        .events-section p {
+            font-size: 1.2rem;
+            color: #bfbfbf;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="#team">Our Team</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#apply" class="apply-btn">Apply Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+ 
+    <section id="home" class="hero-section">
+        <h1>Alexa Developers SRM</h1>
+        <p>Voices United, Tech Amplified</p>
+    </section>
+
+  
+    <section class="about-section">
+        <div class="content">
+            <img src="image-placeholder.jpg" alt="Group photo of Alexa Developers SRM team" class="team-image">
+            <div class="about-text">
+                <h1>About Us</h1>
+                <p>
+                    Welcome to <span class="highlight">Alexa Developers</span> SRM, a thriving, student-run technical organization at SRMIST that
+                    brings technology and community together. We focus on voice-controlled technologies, application development, and UI/UX design
+                    via hands-on events and workshops. Whether you're a newcomer or a seasoned professional, our events provide ongoing learning
+                    and skill development.
+                </p>
+                <p>
+                    Together we build a community, where creativity knows no bounds and collaboration is key.
+                </p>
+            </div>
+        </div>
+    </section>
+
+<section class="domains-section">
+    <h2>Our Domains</h2>
+    <div class="domains-content">
+        <div class="left-text">
+            <h1>Technical<span class="dot">.</span></h1>
+            <p>A vibrant community of tech enthusiasts collaborating and transforming the future. The tech domain works together to perfect frontend user experiences, build robust systems in backend, and innovate ideas through app development, elevating their skills throughout the journey.</p>
+        </div>
+        <div class="right-image">
+            <div class="image-container">
+                <pre class="code-snippet">
+                    &lt;div class="..."&gt;
+                    ...
+                    &lt;/div&gt;
+                </pre>
+                <div class="large-js-text">Js</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <section class="ux-section">
+        <div class="ux-background">UX</div>
+        <div class="text-content">
+            <h1>Creatives</h1>
+            <p>
+                In the Creatives domain, ideas evolve into unforgettable experiences. The talented content writers and designers have mastered the
+                creation of compelling narratives and seamless design interfaces. Experience the forefront of creativity as they shape the art of
+                engagement.
+            </p>
+        </div>
+    </section>
+
+  
+    <section id="events" class="events-section">
+        <h2>Upcoming Events</h2>
+        <p>Details about upcoming events will be added here.</p>
+    </section>
+
+</body>
+
+</html>
+
